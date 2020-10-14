@@ -2,7 +2,7 @@
 # -*- encoding:Utf-8 -*-
 
 
-from bs4 import BeautifulSoup
+rom bs4 import BeautifulSoup
 import requests
 
 
