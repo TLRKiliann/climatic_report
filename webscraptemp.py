@@ -16,6 +16,7 @@ with open('myscrap.txt', '+w') as file:
     for div in divs:
         rows = div.findAll('td')
         for row in rows:
-            tds.append(row.findAll('b'))
-            print(row.b)
-            file.write(str(row.b) + '\n')
+            if row.b != None:
+                tds.append(row.findAll('b'))
+                print(row.b)
+                file.write(str(row.b) + '\n')
