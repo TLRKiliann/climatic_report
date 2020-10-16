@@ -8,11 +8,11 @@ list_date = ['january', 'february', 'march',
 'april', 'may', 'june', 'juily', 'august', 
 'september', 'october', 'november', 'december']
 
-list_2011 = []
+list_2011 = [0, 2, 5, 10, 12, 13, 13, 16, 14, 8, 5, 2]
 
-list_2016 = []
+list_2016 = [4, 5, 5, 9, 12, 15, 18, 19, 17, 10, 7, 5]
 
-list_2020 = []
+list_2020 = [6, 7, 7, 13, 14, 16, 20, 20, 17, None, None, None]
 
 show_grid = True
 with plt.style.context('seaborn-darkgrid'):
@@ -22,7 +22,7 @@ with plt.style.context('seaborn-darkgrid'):
     plt.ylabel('T°C')
     plt.xlabel('Dates')
     plt.xticks(rotation=45)
-    plt.title('Comparison of temperatures by year')
+    plt.title('Average of temperatures by month')
     plt.legend(['temp 2011', 'temp 2016', 'temp 2020'])
     plt.grid(show_grid)
 

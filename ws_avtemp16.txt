@@ -1,4 +1,5 @@
 <td style="width:65%;">Température moyenne</td><b>4°</b>
+
 <td style="width:65%;">Température maximale</td><b>6°</b>
 <td style="width:65%;">Température minimale</td><b>2°</b>
 <td style="width:65%;">Température maximale record</td><b>10°</b>
@@ -17,6 +18,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>5°</b>
+
 <td style="width:65%;">Température maximale</td><b>7°</b>
 <td style="width:65%;">Température minimale</td><b>2°</b>
 <td style="width:65%;">Température maximale record</td><b>13°</b>
@@ -35,6 +37,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>5°</b>
+
 <td style="width:65%;">Température maximale</td><b>8°</b>
 <td style="width:65%;">Température minimale</td><b>2°</b>
 <td style="width:65%;">Température maximale record</td><b>16°</b>
@@ -53,6 +56,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>9°</b>
+
 <td style="width:65%;">Température maximale</td><b>12°</b>
 <td style="width:65%;">Température minimale</td><b>5°</b>
 <td style="width:65%;">Température maximale record</td><b>18°</b>
@@ -71,6 +75,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>12°</b>
+
 <td style="width:65%;">Température maximale</td><b>15°</b>
 <td style="width:65%;">Température minimale</td><b>8°</b>
 <td style="width:65%;">Température maximale record</td><b>19°</b>
@@ -89,6 +94,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>15°</b>
+
 <td style="width:65%;">Température maximale</td><b>18°</b>
 <td style="width:65%;">Température minimale</td><b>12°</b>
 <td style="width:65%;">Température maximale record</td><b>25°</b>
@@ -107,6 +113,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>18°</b>
+
 <td style="width:65%;">Température maximale</td><b>22°</b>
 <td style="width:65%;">Température minimale</td><b>13°</b>
 <td style="width:65%;">Température maximale record</td><b>26°</b>
@@ -125,6 +132,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>19°</b>
+
 <td style="width:65%;">Température maximale</td><b>23°</b>
 <td style="width:65%;">Température minimale</td><b>15°</b>
 <td style="width:65%;">Température maximale record</td><b>27°</b>
@@ -143,6 +151,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>17°</b>
+
 <td style="width:65%;">Température maximale</td><b>20°</b>
 <td style="width:65%;">Température minimale</td><b>13°</b>
 <td style="width:65%;">Température maximale record</td><b>24°</b>
@@ -161,6 +170,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>10°</b>
+
 <td style="width:65%;">Température maximale</td><b>13°</b>
 <td style="width:65%;">Température minimale</td><b>7°</b>
 <td style="width:65%;">Température maximale record</td><b>18°</b>
@@ -179,6 +189,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>7°</b>
+
 <td style="width:65%;">Température maximale</td><b>9°</b>
 <td style="width:65%;">Température minimale</td><b>4°</b>
 <td style="width:65%;">Température maximale record</td><b>16°</b>
@@ -197,6 +208,7 @@
 
 <td>L'avis de <em>historique-meteo.net</em></td>None
 <td style="width:65%;">Température moyenne</td><b>5°</b>
+
 <td style="width:65%;">Température maximale</td><b>8°</b>
 <td style="width:65%;">Température minimale</td><b>3°</b>
 <td style="width:65%;">Température maximale record</td><b>11°</b>
