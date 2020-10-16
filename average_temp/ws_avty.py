@@ -4,6 +4,7 @@
 
 import matplotlib.pyplot as plt
 
+
 list_date = ['january', 'february', 'march',
 'april', 'may', 'june', 'juily', 'august', 
 'september', 'october', 'november', 'december']
