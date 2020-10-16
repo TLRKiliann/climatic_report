@@ -6,13 +6,13 @@ from bs4 import BeautifulSoup
 import requests
 
 
-url = "https://www.historique-meteo.net/europe/suisse/lausanne/2011/"
+url = "https://www.historique-meteo.net/europe/suisse/lausanne/2020/"
 tds=[]
 req = requests.get(url)
 soup = BeautifulSoup(req.text, "html.parser")
 #print(soup.text)
 divs = soup.findAll("table", {"class": "table"})
-with open('ws_avtemp11.txt', '+w') as file:
+with open('ws_avtemp20.txt', '+w') as file:
     for div in divs:
         rows = div.findAll('tr')
         for row in rows:
