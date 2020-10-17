@@ -4,30 +4,32 @@
 
 import matplotlib.pyplot as plt
 
-list_date = ['01/01', '02/01', '03/01',
-'04/01', '05/01', '06/01', '07/01',
-'08/01', '09/01', '10/01', '11/01',
-'12/01', '13/01', '14/01', '15/01',
-'16/01', '17/01', '18/01', '19/01',
-'20/01', '21/01', '22/01', '23/01',
-'24/01', '25/01', '26/01', '27/01',
-'28/01', '29/01', '30/01', '31/01']
 
-list_2011 = []
+list_date = ['01/02', '02/02', '03/02',
+'04/02', '05/02', '06/02', '07/02',
+'08/02', '09/02', '10/02', '11/02',
+'12/02', '13/02', '14/02', '15/02',
+'16/02', '17/02', '18/02', '19/02',
+'20/02', '21/02', '22/02', '23/02',
+'24/02', '25/02', '26/02', '27/02',
+'28/02', '29/02']
 
-list_2016 = []
+list_2011 = [0,0,2,6,8,10,11,9,8,9,11,8,8,8,5,4,6,6,6,3,3,2,2,3,5,5,4,2, None]
 
-list_2020 = []
+list_2016 = [11,11,7,4,9,9,7,8,9,3,3,4,7,6,2,3,4,5,3,7,11,13,7,6,6,3,7,7,5]
+
+list_2020 = [11,11,13,11,6,5,9,10,10,11,9,6,8,8,11,13,11,7,5,9,9,12,14,13,10,3,5,6,12]
 
 show_grid = True
 with plt.style.context('seaborn-darkgrid'):
-    plt.plot(list_date, list_2011, 'ro--')
+    plt.plot(list_date, list_2011, 'co--')
     plt.plot(list_date, list_2016, 'bo--')
-    plt.plot(list_date, list_2020, 'co-')
-    plt.ylabel('T°C')
-    plt.xlabel('Dates')
+    plt.plot(list_date, list_2020, 'mo-')
+    plt.ylabel('Temperatures (°C)', fontsize=16)
+    plt.xlabel('Dates', fontsize=16)
     plt.xticks(rotation=45)
-    plt.title('Comparison of temperatures for january after-noon')
+    plt.title('Average of temperatures for february 2011-2016-2020 (after-noon)',
+    	fontsize=18)
     plt.legend(['temp 2011', 'temp 2016', 'temp 2020'])
     plt.grid(show_grid)
 

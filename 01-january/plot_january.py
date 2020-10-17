@@ -27,11 +27,12 @@ show_grid = True
 with plt.style.context('seaborn-darkgrid'):
     plt.plot(list_date, list_2011, 'co--')
     plt.plot(list_date, list_2016, 'bo--')
-    plt.plot(list_date, list_2020, 'ro-')
-    plt.ylabel('Temperatures (°C)')
-    plt.xlabel('Dates')
+    plt.plot(list_date, list_2020, 'ro--')
+    plt.ylabel('Temperatures (°C)', fontsize=16)
+    plt.xlabel('Dates', fontsize=16)
     plt.xticks(rotation=45)
-    plt.title('Temperatures for january 2011-2016-2020 (after-noon)')
+    plt.title('Temperatures for january 2011-2016-2020 (after-noon)',
+    	fontsize=18)
     plt.legend(['temp 2011', 'temp 2016', 'temp 2020'])
     plt.grid(show_grid)
 
