@@ -26,7 +26,7 @@ style3 = dict(color="C4", linewidth=1, linestyle='--', marker='.', mec="C9")
 
 with plt.style.context(("seaborn-darkgrid",)):
     fig, axes = plt.subplots(1, 3, constrained_layout=True)
-    fig.set_size_inches(5, 5)
+    #fig.set_size_inches(5, 5)
     #sns.axes_style('dark')
 
     axes[0].plot(list_date, list_2011, **style)
