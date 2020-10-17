@@ -26,18 +26,31 @@ style = dict(color="C4", linewidth=1, linestyle='--', marker='.', mec="C5")
 style2 = dict(color="C4", linewidth=1, linestyle='--', marker='.', mec="C6")
 style3 = dict(color="C4", linewidth=1, linestyle='--', marker='.', mec="C9")
 
-fig, axes = plt.subplots(1,3)
-fig.set_size_inches(5,5)
+with plt.style.context(("seaborn-darkgrid",)):
+    fig, axes = plt.subplots(1, 3, constrained_layout=True)
+    fig.set_size_inches(5,5)
+    sns.axes_style('dark')
 
-axes[0].plot(list_date, list_2011, **style)
+    axes[0].plot(list_date, list_2011, **style)
+    axes[0].set_xlabel('Days of january', fontsize=12)
+    axes[0].set_ylabel('Temperatures (C°)', fontsize=12)
+    axes[0].set_title('2011')
+    axes[0].grid(color='w', linestyle='-', linewidth=1)
 
-axes[1].plot(list_date, list_2016, **style2)
+    axes[1].plot(list_date, list_2016, **style2)
+    axes[1].set_xlabel('Days of january', fontsize=12)
+    axes[1].set_title('2016')
+    axes[1].grid(color='w', linestyle='-', linewidth=1)
 
-axes[2].plot(list_date, list_2020, **style3)
-plt.title('2020')
+    axes[2].plot(list_date, list_2020, **style3)
+    axes[2].set_xlabel('Days of january', fontsize=12)
+    axes[2].set_title('2020')
+    axes[2].grid(color='w', linestyle='-', linewidth=1)
 
-plt.show()
+    plt.show()
 
+#plt.subplots(2, 2, sharex='col')
+#plt.subplots(2, 2, sharey='row')
 """
 show_grid = True
 with plt.style.context('seaborn-darkgrid'):
