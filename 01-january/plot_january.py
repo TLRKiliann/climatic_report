@@ -25,13 +25,13 @@ list_2020 = [8, 8, 9, 8, 5, 9, 8, 8, 10, 8, 6, 7, 8, 9, 9,
 
 show_grid = True
 with plt.style.context('seaborn-darkgrid'):
-    plt.plot(list_date, list_2011, 'ro--')
+    plt.plot(list_date, list_2011, 'co--')
     plt.plot(list_date, list_2016, 'bo--')
-    plt.plot(list_date, list_2020, 'co-')
-    plt.ylabel('T°C')
+    plt.plot(list_date, list_2020, 'ro-')
+    plt.ylabel('Temperatures (°C)')
     plt.xlabel('Dates')
     plt.xticks(rotation=45)
-    plt.title('Comparison of temperatures for january after-noon')
+    plt.title('Temperatures for january 2011-2016-2020 (after-noon)')
     plt.legend(['temp 2011', 'temp 2016', 'temp 2020'])
     plt.grid(show_grid)
 

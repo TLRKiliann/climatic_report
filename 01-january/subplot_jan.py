@@ -2,10 +2,8 @@
 # -*- encoding:Utf-8 -*-
 
 
-import pandas as pd
-import numpy as np
 import matplotlib.pyplot as plt
-import seaborn as sns
+#import seaborn as sns
 
 
 list_date = ['01', '02', '03', '04', '05', '06', '07',
@@ -28,12 +26,12 @@ style3 = dict(color="C4", linewidth=1, linestyle='--', marker='.', mec="C9")
 
 with plt.style.context(("seaborn-darkgrid",)):
     fig, axes = plt.subplots(1, 3, constrained_layout=True)
-    fig.set_size_inches(5,5)
-    sns.axes_style('dark')
+    fig.set_size_inches(5, 5)
+    #sns.axes_style('dark')
 
     axes[0].plot(list_date, list_2011, **style)
     axes[0].set_xlabel('Days of january', fontsize=12)
-    axes[0].set_ylabel('Temperatures (C°)', fontsize=12)
+    axes[0].set_ylabel('Temperatures (°C)', fontsize=12)
     axes[0].set_title('2011')
     axes[0].grid(color='w', linestyle='-', linewidth=1)
 
@@ -51,18 +49,3 @@ with plt.style.context(("seaborn-darkgrid",)):
 
 #plt.subplots(2, 2, sharex='col')
 #plt.subplots(2, 2, sharey='row')
-"""
-show_grid = True
-with plt.style.context('seaborn-darkgrid'):
-    plt.plot(list_date, list_2011, 'ro--')
-    plt.plot(list_date, list_2016, 'bo--')
-    plt.plot(list_date, list_2020, 'co-')
-    plt.ylabel('T°C')
-    plt.xlabel('Dates')
-    plt.xticks(rotation=45)
-    plt.title('Comparison of temperatures for january after-noon')
-    plt.legend(['temp 2011', 'temp 2016', 'temp 2020'])
-    plt.grid(show_grid)
-
-    plt.show()
-"""

@@ -17,9 +17,9 @@ list_2020 = [117, 244, 190, 88, 163, 291, 200, 247, 143, None, None, None]
 
 show_grid = True
 with plt.style.context('seaborn-darkgrid'):
-    plt.plot(list_date, list_2011, 'ro--')
+    plt.plot(list_date, list_2011, 'co--')
     plt.plot(list_date, list_2016, 'bo--')
-    plt.plot(list_date, list_2020, 'co-')
+    plt.plot(list_date, list_2020, 'ro-')
     plt.ylabel('Total precipitations (mm)')
     plt.xlabel('Dates')
     plt.xticks(rotation=45)
