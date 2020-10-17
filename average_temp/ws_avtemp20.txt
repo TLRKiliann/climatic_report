@@ -1,179 +1,167 @@
 <td style="width:65%;">Température moyenne</td><b>6°</b>
 
 <td style="width:65%;">Température maximale</td><b>8°</b>
-
 <td style="width:65%;">Température minimale</td><b>3°</b>
 <td style="width:65%;">Température maximale record</td><b>11°</b>
 <td style="width:65%;">Température minimale record</td><b>8°</b>
+
 <td style="width:65%;">Vitesse du vent</td><b>14km/h</b>
 <td style="width:65%;">Température du vent</td><b>3°</b>
+
 <td style="width:65%;">Précipitations moyennes par jour</td><b>4mm</b>
 <td style="width:65%;">Record de précipitations sur une journée</td><b>35mm</b>
 <td style="width:65%;">Précipitations totales sur le mois</td><b>117mm</b>
 <td style="width:65%;">Humidité</td><b>77%</b>
-<td style="width:65%;">Visibilité</td><b>10km</b>
-<td style="width:65%;">Couverture nuageuse</td><b>37%</b>
-<td style="width:65%;">Heure du lever du soleil</td><b>08:17:00</b>
-<td style="width:65%;">Heure du coucher du soleil</td><b>17:35:00</b>
-<td style="width:65%;">Durée du jour</td><b>9:18:0</b>
 
-<td>L'avis de <em>historique-meteo.net</em></td>None
+
+
+
+
 <td style="width:65%;">Température moyenne</td><b>7°</b>
 
 <td style="width:65%;">Température maximale</td><b>10°</b>
-
 <td style="width:65%;">Température minimale</td><b>5°</b>
 <td style="width:65%;">Température maximale record</td><b>14°</b>
 <td style="width:65%;">Température minimale record</td><b>10°</b>
+
 <td style="width:65%;">Vitesse du vent</td><b>23km/h</b>
 <td style="width:65%;">Température du vent</td><b>4°</b>
+
 <td style="width:65%;">Précipitations moyennes par jour</td><b>9mm</b>
 <td style="width:65%;">Record de précipitations sur une journée</td><b>31mm</b>
 <td style="width:65%;">Précipitations totales sur le mois</td><b>244mm</b>
 <td style="width:65%;">Humidité</td><b>79%</b>
-<td style="width:65%;">Visibilité</td><b>9km</b>
-<td style="width:65%;">Couverture nuageuse</td><b>53%</b>
-<td style="width:65%;">Heure du lever du soleil</td><b>07:58:00</b>
-<td style="width:65%;">Heure du coucher du soleil</td><b>18:18:00</b>
-<td style="width:65%;">Durée du jour</td><b>10:20:0</b>
 
-<td>L'avis de <em>historique-meteo.net</em></td>None
+
+
+
+
 <td style="width:65%;">Température moyenne</td><b>7°</b>
 
 <td style="width:65%;">Température maximale</td><b>10°</b>
-
 <td style="width:65%;">Température minimale</td><b>3°</b>
 <td style="width:65%;">Température maximale record</td><b>16°</b>
 <td style="width:65%;">Température minimale record</td><b>9°</b>
+
 <td style="width:65%;">Vitesse du vent</td><b>16km/h</b>
 <td style="width:65%;">Température du vent</td><b>3°</b>
+
 <td style="width:65%;">Précipitations moyennes par jour</td><b>7mm</b>
 <td style="width:65%;">Record de précipitations sur une journée</td><b>47mm</b>
 <td style="width:65%;">Précipitations totales sur le mois</td><b>190mm</b>
 <td style="width:65%;">Humidité</td><b>77%</b>
-<td style="width:65%;">Visibilité</td><b>10km</b>
-<td style="width:65%;">Couverture nuageuse</td><b>43%</b>
-<td style="width:65%;">Heure du lever du soleil</td><b>08:12:00</b>
-<td style="width:65%;">Heure du coucher du soleil</td><b>20:02:00</b>
-<td style="width:65%;">Durée du jour</td><b>11:50:0</b>
 
-<td>L'avis de <em>historique-meteo.net</em></td>None
+
+
+
+
 <td style="width:65%;">Température moyenne</td><b>13°</b>
 
 <td style="width:65%;">Température maximale</td><b>16°</b>
-
 <td style="width:65%;">Température minimale</td><b>9°</b>
 <td style="width:65%;">Température maximale record</td><b>19°</b>
 <td style="width:65%;">Température minimale record</td><b>12°</b>
+
 <td style="width:65%;">Vitesse du vent</td><b>9km/h</b>
 <td style="width:65%;">Température du vent</td><b>11°</b>
+
 <td style="width:65%;">Précipitations moyennes par jour</td><b>3mm</b>
 <td style="width:65%;">Record de précipitations sur une journée</td><b>25mm</b>
 <td style="width:65%;">Précipitations totales sur le mois</td><b>88mm</b>
 <td style="width:65%;">Humidité</td><b>72%</b>
-<td style="width:65%;">Visibilité</td><b>10km</b>
-<td style="width:65%;">Couverture nuageuse</td><b>34%</b>
-<td style="width:65%;">Heure du lever du soleil</td><b>07:13:00</b>
-<td style="width:65%;">Heure du coucher du soleil</td><b>20:42:00</b>
-<td style="width:65%;">Durée du jour</td><b>13:29:0</b>
 
-<td>L'avis de <em>historique-meteo.net</em></td>None
+
+
+
+
 <td style="width:65%;">Température moyenne</td><b>14°</b>
 
 <td style="width:65%;">Température maximale</td><b>18°</b>
-
 <td style="width:65%;">Température minimale</td><b>10°</b>
 <td style="width:65%;">Température maximale record</td><b>23°</b>
 <td style="width:65%;">Température minimale record</td><b>14°</b>
+
 <td style="width:65%;">Vitesse du vent</td><b>18km/h</b>
 <td style="width:65%;">Température du vent</td><b>10°</b>
+
 <td style="width:65%;">Précipitations moyennes par jour</td><b>6mm</b>
 <td style="width:65%;">Record de précipitations sur une journée</td><b>40mm</b>
 <td style="width:65%;">Précipitations totales sur le mois</td><b>163mm</b>
 <td style="width:65%;">Humidité</td><b>84%</b>
-<td style="width:65%;">Visibilité</td><b>10km</b>
-<td style="width:65%;">Couverture nuageuse</td><b>39%</b>
-<td style="width:65%;">Heure du lever du soleil</td><b>06:18:00</b>
-<td style="width:65%;">Heure du coucher du soleil</td><b>21:19:00</b>
-<td style="width:65%;">Durée du jour</td><b>15:1:0</b>
 
-<td>L'avis de <em>historique-meteo.net</em></td>None
+
+
+
+
 <td style="width:65%;">Température moyenne</td><b>16°</b>
 
 <td style="width:65%;">Température maximale</td><b>20°</b>
-
 <td style="width:65%;">Température minimale</td><b>12°</b>
 <td style="width:65%;">Température maximale record</td><b>25°</b>
 <td style="width:65%;">Température minimale record</td><b>18°</b>
+
 <td style="width:65%;">Vitesse du vent</td><b>11km/h</b>
 <td style="width:65%;">Température du vent</td><b>13°</b>
+
 <td style="width:65%;">Précipitations moyennes par jour</td><b>10mm</b>
 <td style="width:65%;">Record de précipitations sur une journée</td><b>49mm</b>
 <td style="width:65%;">Précipitations totales sur le mois</td><b>291mm</b>
 <td style="width:65%;">Humidité</td><b>87%</b>
-<td style="width:65%;">Visibilité</td><b>10km</b>
-<td style="width:65%;">Couverture nuageuse</td><b>58%</b>
-<td style="width:65%;">Heure du lever du soleil</td><b>05:44:00</b>
-<td style="width:65%;">Heure du coucher du soleil</td><b>21:31:00</b>
-<td style="width:65%;">Durée du jour</td><b>15:47:0</b>
 
-<td>L'avis de <em>historique-meteo.net</em></td>None
+
+
+
+
 <td style="width:65%;">Température moyenne</td><b>20°</b>
 
 <td style="width:65%;">Température maximale</td><b>23°</b>
-
 <td style="width:65%;">Température minimale</td><b>16°</b>
 <td style="width:65%;">Température maximale record</td><b>29°</b>
 <td style="width:65%;">Température minimale record</td><b>21°</b>
+
 <td style="width:65%;">Vitesse du vent</td><b>9km/h</b>
 <td style="width:65%;">Température du vent</td><b>17°</b>
+
 <td style="width:65%;">Précipitations moyennes par jour</td><b>7mm</b>
 <td style="width:65%;">Record de précipitations sur une journée</td><b>48mm</b>
 <td style="width:65%;">Précipitations totales sur le mois</td><b>200mm</b>
 <td style="width:65%;">Humidité</td><b>81%</b>
-<td style="width:65%;">Visibilité</td><b>10km</b>
-<td style="width:65%;">Couverture nuageuse</td><b>41%</b>
-<td style="width:65%;">Heure du lever du soleil</td><b>06:13:00</b>
-<td style="width:65%;">Heure du coucher du soleil</td><b>21:30:00</b>
-<td style="width:65%;">Durée du jour</td><b>15:17:0</b>
 
-<td>L'avis de <em>historique-meteo.net</em></td>None
+
+
+
+
 <td style="width:65%;">Température moyenne</td><b>20°</b>
 
 <td style="width:65%;">Température maximale</td><b>24°</b>
-
 <td style="width:65%;">Température minimale</td><b>17°</b>
 <td style="width:65%;">Température maximale record</td><b>29°</b>
 <td style="width:65%;">Température minimale record</td><b>22°</b>
+
 <td style="width:65%;">Vitesse du vent</td><b>8km/h</b>
 <td style="width:65%;">Température du vent</td><b>18°</b>
+
 <td style="width:65%;">Précipitations moyennes par jour</td><b>8mm</b>
 <td style="width:65%;">Record de précipitations sur une journée</td><b>44mm</b>
 <td style="width:65%;">Précipitations totales sur le mois</td><b>247mm</b>
 <td style="width:65%;">Humidité</td><b>81%</b>
-<td style="width:65%;">Visibilité</td><b>10km</b>
-<td style="width:65%;">Couverture nuageuse</td><b>46%</b>
-<td style="width:65%;">Heure du lever du soleil</td><b>06:53:00</b>
-<td style="width:65%;">Heure du coucher du soleil</td><b>21:04:00</b>
-<td style="width:65%;">Durée du jour</td><b>14:11:0</b>
 
-<td>L'avis de <em>historique-meteo.net</em></td>None
+
+
+
+
 <td style="width:65%;">Température moyenne</td><b>17°</b>
 
 <td style="width:65%;">Température maximale</td><b>21°</b>
-
 <td style="width:65%;">Température minimale</td><b>14°</b>
 <td style="width:65%;">Température maximale record</td><b>26°</b>
 <td style="width:65%;">Température minimale record</td><b>19°</b>
+
 <td style="width:65%;">Vitesse du vent</td><b>12km/h</b>
 <td style="width:65%;">Température du vent</td><b>14°</b>
+
 <td style="width:65%;">Précipitations moyennes par jour</td><b>5mm</b>
 <td style="width:65%;">Record de précipitations sur une journée</td><b>31mm</b>
 <td style="width:65%;">Précipitations totales sur le mois</td><b>143mm</b>
 <td style="width:65%;">Humidité</td><b>84%</b>
-<td style="width:65%;">Visibilité</td><b>10km</b>
-<td style="width:65%;">Couverture nuageuse</td><b>41%</b>
-<td style="width:65%;">Heure du lever du soleil</td><b>07:31:00</b>
-<td style="width:65%;">Heure du coucher du soleil</td><b>20:12:00</b>
-<td style="width:65%;">Durée du jour</td><b>12:41:0</b>
-<td>L'avis de <em>historique-meteo.net</em></td>None
+

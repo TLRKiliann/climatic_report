@@ -6,25 +6,25 @@ import matplotlib.pyplot as plt
 
 
 list_date = ['january', 'february', 'march',
-'april', 'may', 'june', 'juily', 'august', 
+'april', 'may', 'june', 'juily', 'august',
 'september', 'october', 'november', 'december']
 
-list_2011 = [0, 2, 5, 10, 12, 13, 13, 16, 14, 8, 5, 2]
+list_2011 = [27, 18, 33, 28, 67, 93, 75, 51, 44, 34, 3, 150]
 
-list_2016 = [4, 5, 5, 9, 12, 15, 18, 19, 17, 10, 7, 5]
+list_2016 = [80, 69, 53, 34, 63, 70, 58, 39, 25, 29, 46, 1]
 
-list_2020 = [6, 7, 7, 13, 14, 16, 20, 20, 17, None, None, None]
+list_2020 = [117, 244, 190, 88, 163, 291, 200, 247, 143, None, None, None]
 
 show_grid = True
 with plt.style.context('seaborn-darkgrid'):
     plt.plot(list_date, list_2011, 'ro--')
     plt.plot(list_date, list_2016, 'bo--')
     plt.plot(list_date, list_2020, 'co-')
-    plt.ylabel('T°C')
+    plt.ylabel('Total precipitations (mm)')
     plt.xlabel('Dates')
     plt.xticks(rotation=45)
-    plt.title('Average of temperatures by MONTH')
-    plt.legend(['temp 2011', 'temp 2016', 'temp 2020'])
+    plt.title('Total precipitations by MONTH (mm)')
+    plt.legend(['2011', '2016', '2020'])
     plt.grid(show_grid)
 
     plt.show()
