@@ -26,7 +26,7 @@ with plt.style.context('seaborn-darkgrid'):
     plt.plot(list_date, list_2016, 'bo--')
     plt.plot(list_date, list_2020, 'ro-')
     plt.ylabel('Temperatures (°C)', fontsize=14)
-    plt.xlabel('Dates', fontsize=14)
+    plt.xlabel('Days', fontsize=14)
     plt.xticks(rotation=45)
     plt.title('Temperatures for March 2011-2016-2020 (after-noon)',
         fontsize=16)
