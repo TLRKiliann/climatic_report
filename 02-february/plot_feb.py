@@ -28,7 +28,7 @@ with plt.style.context('seaborn-darkgrid'):
     plt.ylabel('Temperatures (°C)', fontsize=14)
     plt.xlabel('Days', fontsize=14)
     plt.xticks(rotation=45)
-    plt.title('Average of temperatures for February 2011-2016-2020 (after-noon)',
+    plt.title('Temperatures for February 2011-2016-2020 (after-noon)',
     	fontsize=16)
     plt.legend(['temp 2011', 'temp 2016', 'temp 2020'])
     plt.grid(show_grid)
