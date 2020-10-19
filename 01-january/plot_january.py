@@ -27,7 +27,7 @@ show_grid = True
 with plt.style.context('seaborn-darkgrid'):
     plt.plot(list_date, list_2011, 'co--')
     plt.plot(list_date, list_2016, 'bo--')
-    plt.plot(list_date, list_2020, 'ro--')
+    plt.plot(list_date, list_2020, 'ro-')
     plt.ylabel('Temperatures (°C)', fontsize=14)
     plt.xlabel('Days', fontsize=14)
     plt.xticks(rotation=45)

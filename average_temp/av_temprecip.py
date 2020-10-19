@@ -5,9 +5,8 @@
 import matplotlib.pyplot as plt
 
 
-list_date = ['jan', 'feb', 'mar',
-'apr', 'may', 'jun', 'jui', 'aug', 
-'sep', 'oct', 'nov', 'dec']
+list_date = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 
+'jui', 'aug', 'sep', 'oct', 'nov', 'dec']
 
 list_2011 = [0, 2, 5, 10, 12, 13, 13, 16, 14, 8, 5, 2]
 
@@ -30,7 +29,7 @@ style6 = dict(color="C4", linewidth=1, linestyle='--', marker='.', mec="C9")
 
 with plt.style.context(("seaborn-darkgrid")):
     fig, (axes, axes2) = plt.subplots(2, 3, constrained_layout=True)
-    fig.set_size_inches(5, 5)
+    #fig.set_size_inches(5, 5)
 
     axes[0].plot(list_date, list_2011, **style)
     #axes[0].set_xlabel('Dates', fontsize=12)

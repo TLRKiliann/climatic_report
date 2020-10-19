@@ -6,6 +6,7 @@ from tkinter import *
 from tkinter import messagebox
 import os
 import subprocess
+import platform
 
 
 class Application(Frame):
@@ -34,7 +35,7 @@ class Application(Frame):
         self.top3 = Frame(self.can, bg='aquamarine')
         self.top4 = Frame(self.can, bg='aquamarine')
         self.top5 = Frame(self.can, bg='turquoise3')
-        self.top6 = Frame(self.can, bg='turquoise3')
+        self.top6 = Frame(self.can, bg='aquamarine')
         self.bottom = Frame(self.can)
         self.top.pack(side=TOP, pady=2)
         self.top2.pack(side=TOP, pady=2)
@@ -43,6 +44,11 @@ class Application(Frame):
         self.top5.pack(side=TOP, pady=2)
         self.top6.pack(side=TOP, pady=2)
         self.bottom.pack(side=BOTTOM, fill=BOTH, expand=YES)
+
+        # Label title
+        self.label=Label(self.can, text="CLIMATE BOARD", font='Times 22 bold',
+            fg='navy', bg='turquoise3')
+        self.label.pack(in_=self.top, side=LEFT, padx=5, pady=10)
 
         def tempJanuary():
             try:
@@ -140,11 +146,6 @@ class Application(Frame):
                 print("+ December file doesn't exist !", no_file11)
                 messagebox.showwarning("WARNING", "December file doesn't exist !")
 
-        # Label title
-        self.label=Label(self.can, text="CLIMATE BOARD", font='Times 22 bold',
-            fg='navy', bg='turquoise3')
-        self.label.pack(in_=self.top, side=LEFT, padx=5, pady=10)
-
         # Label temp
         self.labelbot=Label(self.can, text="Temperatures for 2011-2016-2020", font='Times 18 bold',
             fg='RoyalBlue3', bg='aquamarine')
@@ -235,14 +236,32 @@ class Application(Frame):
         self.buttonDecember.pack(in_=self.top4, side=LEFT, padx=10, pady=10)
 
         # Label temp
-        self.labelbot2=Label(self.can, text="Precipitations for month 2011-2016-2020", font='Times 18 bold',
-            fg='red', bg='aquamarine')
+        self.labelbot2=Label(self.can, text="Temperatures and precipitations 2011-2016-2020", 
+            font='Times 18 bold', fg='RoyalBlue3', bg='aquamarine')
         self.labelbot2.pack(in_=self.top5, side=LEFT, pady=10)
 
-        # Label temp precipit
-        self.labelbot3=Label(self.can, text="Temperatures and precipitations per year", 
-            font='Times 18 bold', fg='red', bg='aquamarine')
-        self.labelbot3.pack(in_=self.top6, side=LEFT, pady=10)
+        def tempPrecipit():
+            """
+                For openning file at pdf 
+                format with a bit prog-sys code.
+                For Linux, Windows and MAC.
+            """
+            becall = platform.system()
+            print(platform.system())
+            
+            if becall == 'Linux':
+                os.system('gio open "./average_temp/av_tempreci.png"') # Linux
+            elif becall =='Darwin':
+                subprocess.call('open', './average_temp/av_tempreci.png' ) # Mac
+            else:
+                os.startfile('./average_temp/av_tempreci.png') # Windows
+
+        # Button for temprecipit
+        self.buttonTemp = Button(self.can, text='Years', width=8, bd=3,
+            fg='navy', bg='aquamarine', highlightbackground='darkblue',
+            activeforeground='white', activebackground='light blue',
+            command=tempPrecipit)
+        self.buttonTemp.pack(in_=self.top6, side=LEFT, padx=10, pady=10)
 
         # Button to quit
         self.buttonQuit = Button(self.can, text='Quit', width=8, bd=3,
