@@ -256,12 +256,48 @@ class Application(Frame):
             else:
                 os.startfile('./average_temp/av_tempreci.png') # Windows
 
+        def temperAverTemper():
+            """
+                To display average of temperatures 2011-2016-2020
+            """
+            try:
+                if os.path.getsize('./average_temp/ws_avty.py'):
+                    subprocess.run('./average_temp/ws_avty.py', check=True)
+            except FileNotFoundError as no_fileAT:
+                print("+ December file doesn't exist !", no_fileAT)
+                messagebox.showwarning("WARNING", "December file doesn't exist !")
+
+        def temperAverPrecipit():
+            """
+                To display average of precipitations 2011-2016-2020
+            """
+            try:
+                if os.path.getsize('./average_temp/ws_totalprecipit.py'):
+                    subprocess.run('./average_temp/ws_totalprecipit.py', check=True)
+            except FileNotFoundError as no_fileAP:
+                print("+ File doesn't exist !", no_fileAP)
+                messagebox.showwarning("WARNING", "File doesn't exist !")
+
         # Button for temprecipit
-        self.buttonTemp = Button(self.can, text='Years', width=8, bd=3,
+        self.buttonTemp = Button(self.can, text='6-tabs', width=8, bd=3,
             fg='navy', bg='aquamarine', highlightbackground='darkblue',
             activeforeground='white', activebackground='light blue',
             command=tempPrecipit)
         self.buttonTemp.pack(in_=self.top6, side=LEFT, padx=10, pady=10)
+
+        # Button to compare temperatures
+        self.buttonAvTemp = Button(self.can, text='Av-Temp.', width=8, bd=3,
+            fg='navy', bg='aquamarine', highlightbackground='darkblue',
+            activeforeground='white', activebackground='light blue',
+            command=temperAverTemper)
+        self.buttonAvTemp.pack(in_=self.top6, side=LEFT, padx=10, pady=10)
+
+        # Button to compare precipit
+        self.buttonAvPreci = Button(self.can, text='Av-Preci.', width=8, bd=3,
+            fg='navy', bg='aquamarine', highlightbackground='darkblue',
+            activeforeground='white', activebackground='light blue',
+            command=temperAverPrecipit)
+        self.buttonAvPreci.pack(in_=self.top6, side=LEFT, padx=10, pady=10)
 
         # Button to quit
         self.buttonQuit = Button(self.can, text='Quit', width=8, bd=3,
