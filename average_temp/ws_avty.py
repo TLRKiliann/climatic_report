@@ -3,7 +3,6 @@
 
 
 import matplotlib.pyplot as plt
-import matplotlib.pyplot as plt
 from matplotlib import dates
 from matplotlib.dates import date2num
 from matplotlib.dates import AutoDateLocator
