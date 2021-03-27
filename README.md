@@ -1,27 +1,26 @@
-# web-scrapping
+# web-scrapping (climate 2011-2016-2020)
 
-Since a virtualenv :
+To create a virtualenv in python3 :
 > git init \
 > git clone https://github.com/TLRKiliann/web-scrap.git \
 > virtualenv -p /usr/bin/python3 web-scrap \
 > source web-scrap/bin/activate \
 > cd web-scrap
 
-To install beautifulsoup and requests :
+I've used beautifulsoup and requests :
 > pip3 install beautifulsoup4 \
 > pip3 install requests
 
-> touch requirements.txt \
-> touch .gitignore
+Launch the application with the following command :
+> python3 climate_board.py
 
-> pip3 freeze > requirements.txt \
-> cat requirements.txt (to verify)
+Thus, you can see the different years (2011-2016-2020)!
 
-Launch app with :
-> python3 webscraptemp.py
+I got this from the site:
 
-Modify the address into script:
-> line 9 --> url = ...
+https://www.historique-meteo.net/europe/suisse/lausanne/
+
+The weather conditions are precisely based on the city of Lausanne (CH).
 
 Enjoy it !
 
