@@ -18,7 +18,7 @@ list_2011 = [27, 18, 33, 28, 67, 93, 75, 51, 44, 34, 3, 150]
 
 list_2016 = [80, 69, 53, 34, 63, 70, 58, 39, 25, 29, 46, 1]
 
-list_2020 = [117, 244, 190, 88, 163, 291, 200, 247, 143, None, None, None]
+list_2020 = [117, 244, 190, 88, 163, 291, 200, 247, 143, 297, 55, 251]
 
 converted_dates = list(map(datetime.datetime.strptime, list_date, len(list_date)*['%b']))
 x_axis = converted_dates
