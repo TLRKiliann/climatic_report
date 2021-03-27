@@ -124,24 +124,24 @@ class Application(Frame):
 
         def tempOctober():
             try:
-                if os.path.getsize(''):
-                    subprocess.run('', check=True)
+                if os.path.getsize('./10-october/plot_oct.py'):
+                    subprocess.run('./10-october/plot_oct.py', check=True)
             except FileNotFoundError as no_file9:
                 print("+ October file doesn't exist !", no_file9)
                 messagebox.showwarning("WARNING", "October file doesn't exist !")
 
         def tempNovember():
             try:
-                if os.path.getsize(''):
-                    subprocess.run('', check=True)
+                if os.path.getsize('./11-november/plot_nov.py'):
+                    subprocess.run('./11-november/plot_nov.py', check=True)
             except FileNotFoundError as no_file10:
                 print("+ November file doesn't exist !", no_file10)
                 messagebox.showwarning("WARNING", "November file doesn't exist !")
 
         def tempDecember():
             try:
-                if os.path.getsize(''):
-                    subprocess.run('', check=True)
+                if os.path.getsize('./12-december/plot_dec.py'):
+                    subprocess.run('./12-december/plot_dec.py', check=True)
             except FileNotFoundError as no_file11:
                 print("+ December file doesn't exist !", no_file11)
                 messagebox.showwarning("WARNING", "December file doesn't exist !")
