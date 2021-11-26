@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV='/home/koala/Documents/python/pypro/webscrap/web-scrap'
+VIRTUAL_ENV='/home/koala/Documents/python/pypro/webscrap/climatic_report'
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"

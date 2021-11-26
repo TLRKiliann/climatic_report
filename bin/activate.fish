@@ -57,7 +57,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV '/home/koala/Documents/python/pypro/webscrap/web-scrap'
+set -gx VIRTUAL_ENV '/home/koala/Documents/python/pypro/webscrap/climatic_report'
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | head -c 1) -lt 3

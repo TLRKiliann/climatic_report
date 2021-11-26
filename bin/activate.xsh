@@ -28,7 +28,7 @@ def _deactivate(args):
 _deactivate(["nondestructive"])
 aliases["deactivate"] = _deactivate
 
-$VIRTUAL_ENV = r"/home/koala/Documents/python/pypro/webscrap/web-scrap"
+$VIRTUAL_ENV = r"/home/koala/Documents/python/pypro/webscrap/climatic_report"
 
 $_OLD_VIRTUAL_PATH = $PATH
 $PATH = $PATH[:]
