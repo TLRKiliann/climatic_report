@@ -1,4 +1,4 @@
-# web-scrapping (climate 2011-2016-2020)
+# climatic_report (climate 2011-2016-2020)
 
 ### To create a virtualenv in python3 :
 `git init`\
