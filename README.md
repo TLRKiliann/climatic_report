@@ -20,14 +20,14 @@
 
 ---
 
-## Thus, you can see the different years (2011-2016-2020)!
+### Thus, you can see the different years (2011-2016-2020)!
+
+> The weather conditions are precisely based on the city of Lausanne (CH).
 
 ```
 I got this from the site:
 https://www.historique-meteo.net/europe/suisse/lausanne/
 ```
-
-## The weather conditions are precisely based on the city of Lausanne (CH).
 
 Enjoy it !
 
